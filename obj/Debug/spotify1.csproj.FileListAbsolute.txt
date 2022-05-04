@@ -1,0 +1,51 @@
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.csproj.AssemblyReference.cache
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.Properties.Resources.resources
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.csproj.GenerateResource.cache
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.csproj.CoreCompileInputs.cache
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\bin\Debug\spotify1.exe.config
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\bin\Debug\spotify1.exe
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\bin\Debug\spotify1.pdb
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\bin\Debug\Oracle.DataAccess.dll
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.csproj.CopyComplete
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.exe
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.pdb
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.publichSongForm.resources
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.mainForm.resources
+F:\aaaaaaaaaaa\Studying\SWE\spotify1\obj\Debug\spotify1.SearchForm.resources
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\spotify1.exe.config
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\spotify1.exe
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\spotify1.pdb
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.Shared.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\Oracle.DataAccess.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\AxShockwaveFlashObjects.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\ShockwaveFlashObjects.dll
+D:\Documents\SC 3rd 2\SW\spotify1\bin\Debug\stdole.dll
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.displayAllSongs.resources
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.Form1.resources
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.Login.resources
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.mainForm.resources
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.publichSongForm.resources
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.Register.resources
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.ReportForm1.resources
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.SearchForm.resources
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.Properties.Resources.resources
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.csproj.GenerateResource.cache
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.csproj.CoreCompileInputs.cache
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.csproj.CopyComplete
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.exe
+D:\Documents\SC 3rd 2\SW\spotify1\obj\Debug\spotify1.pdb
