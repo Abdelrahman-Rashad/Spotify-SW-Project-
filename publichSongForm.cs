@@ -35,6 +35,8 @@ namespace spotify1
             OracleCommand c = new OracleCommand();
             c.Connection = conn;
 
+
+
             c.CommandText = "GetSongID";
             c.CommandType = CommandType.StoredProcedure;
             c.Parameters.Add("id", OracleDbType.Int32, ParameterDirection.Output);
@@ -45,21 +47,33 @@ namespace spotify1
                 newID = maxID + 1;
             }
             catch { newID = 1; }
+     
+
+
+
+
+
+
+
+
+
+
 
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into SONG values (:songID,:songName,:date,:duration);";
-            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "insert into SONG values (:songID,:songName,:datePublished,:duration)";
+            //cmd.CommandType = CommandType.Text;
             cmd.Parameters.Add("songID", newID);
             cmd.Parameters.Add("songName", textBox1.Text);
-            cmd.Parameters.Add("date", DateTime.Now.ToString());
+            cmd.Parameters.Add(new OracleParameter("dateParam", OracleDbType.Date)).Value = DateTime.Now;
             cmd.Parameters.Add("duration", textBox2.Text);
             int r = cmd.ExecuteNonQuery();
 
+
             OracleCommand cmd1 = new OracleCommand();
             cmd1.Connection = conn;
-            cmd1.CommandText = "insert into SONGARTIST values (:songID,:artistID);";
-            cmd1.CommandType = CommandType.Text;
+            cmd1.CommandText = "insert into SONGARTIST values (:songID,:artistID)";
+            // cmd1.CommandType = CommandType.Text;
             cmd1.Parameters.Add("songID", newID);
             cmd1.Parameters.Add("artistID", textBox4.Text);
             int r1 = cmd1.ExecuteNonQuery();
@@ -74,17 +88,27 @@ namespace spotify1
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Thread thread = new Thread(() => Application.Run(new mainForm()));
+            thread.Start();
+            this.Close();
+        }
+
+
+
+        private void button2_Click_1(object sender, EventArgs e)
         {
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "update SONG set SONGTITLE=:songName, PUBLISHDATE:date, DURATION=:duration "
-                + "where SONGID=:songID;";
-            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "update SONG set SONGTITLE=:songName, DURATION=:duration "
+                + "where SONGID=:songID";
+            //cmd.CommandType = CommandType.Text;
             cmd.Parameters.Add("songName", textBox1.Text);
-            cmd.Parameters.Add("date", DateTime.Now.ToString());
             cmd.Parameters.Add("duration", textBox2.Text);
-            cmd.Parameters.Add("songID" , textBox5.Text);
+            cmd.Parameters.Add("songID", textBox5.Text);
             int r = cmd.ExecuteNonQuery();
             if (r != -1)
             {
@@ -96,14 +120,7 @@ namespace spotify1
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Thread thread = new Thread(() => Application.Run(new mainForm()));
-            thread.Start();
-            this.Close();
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
