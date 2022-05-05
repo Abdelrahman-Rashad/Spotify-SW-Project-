@@ -1,0 +1,114 @@
+CREATE TABLE ARTIST (
+    ArtistID number(10) primary key,
+    ArtistName varchar(255) not null,
+    Username varchar(255),  
+    Password varchar(255),
+    Gender  varchar2(1)
+);
+
+CREATE TABLE SONG (
+    SongID number(10) primary key,
+    SongTitle varchar(255) not null,
+    PublishDate DATE,
+    Duration  number(4)
+);
+
+CREATE TABLE SONGARTIST (
+    SongID number(10)  References Song (SongID) ,
+    ArtistID number(10)  References Artist (ArtistID),
+    CONSTRAINT Son_Art_PK PRIMARY KEY(SongID, ArtistID)
+);
+
+CREATE TABLE Playlists (
+    playlist_id number(10) primary key,
+    playlist_Title varchar(255) not null,
+    ArtistID number(10)  References Artist (ArtistID)
+);
+
+CREATE TABLE Playlists_Songs (
+    Playlists_id number(10) REFERENCES Playlists(playlist_id),
+    SongID number(10)  References Song (SongID),
+    CONSTRAINT play_son_PK PRIMARY KEY(SongID, Playlists_id)
+);
+
+Insert into ARTIST values
+(1,'Rashad','rashad100','1111','M');
+
+Insert into ARTIST values
+(2,'Abdelrahman','abdo200','2222','M');
+
+Insert into ARTIST values
+(3,'Ahmed','ahmed300','3333','M');
+
+Insert into ARTIST values
+(4,'sara','sara400','4444','F');
+
+
+
+Insert into SONG values
+(1,'I Am the Best','24-June-2011','3');
+
+Insert into SONG values
+(2,'Dancing Queen','15-August-1976','3');
+
+Insert into SONG values
+(3,'Kick It in the Sticks','29-February-2012','2');
+
+Insert into SONG values
+(4,'Dior','11-February-2020','3');
+
+
+
+insert into SONGARTIST values
+(1, 1);
+insert into SONGARTIST values
+(1, 2);
+insert into SONGARTIST values
+(2, 2);
+insert into SONGARTIST values
+(3, 1);
+insert into SONGARTIST values
+(4, 4);
+
+Insert into Playlists values
+(1,'Classical',1);
+Insert into Playlists values
+(2,'Jazz',2);
+Insert into Playlists values
+(3,'Pop',3);
+Insert into Playlists values
+(4,'Rock',2);
+
+insert into Playlists_Songs values
+(1, 1);
+insert into Playlists_Songs values
+(1, 2);
+insert into Playlists_Songs values
+(1, 3);
+insert into Playlists_Songs values
+(2, 1);
+insert into Playlists_Songs values
+(2, 4);
+insert into Playlists_Songs values
+(3, 2);
+insert into Playlists_Songs values
+(2, 3);
+insert into Playlists_Songs values
+(4, 4);
+insert into Playlists_Songs values
+(4, 2);
+
+Commit;
+
+
+
+
+
+
+
+
+
+
+
+
+
